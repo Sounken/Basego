@@ -1,11 +1,9 @@
-module github.com/Sounken/Basego
+module realtime-forum
 
-go 1.19
+go 1.18
 
 require (
-	github.com/google/uuid v1.3.0
-	github.com/gorilla/sessions v1.2.1
+	github.com/gofrs/uuid v4.4.0+incompatible
+	github.com/gorilla/websocket v1.5.0
 	github.com/mattn/go-sqlite3 v1.14.16
 )
-
-require github.com/gorilla/securecookie v1.1.1 // indirect
